@@ -8,20 +8,20 @@ This project simplifies the process of setting up various development and servic
 
 To start all configured containers in detached mode:
 
-  docker-compose up -d
+  `docker-compose up -d`
 
 To view container logs:
 
-  docker-compose logs -f
+  `docker-compose logs -f`
 
 ### Stopping Containers
 
 Stop the running containers:
 
-  docker-compose down
+  `docker-compose down`
 
 ### Rebuilding Containers
 
 If you make changes to Dockerfiles or configuration files:
 
-  docker-compose up --build
+  `docker-compose up --build`
